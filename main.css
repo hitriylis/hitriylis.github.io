@@ -51,3 +51,11 @@
 
   transform: rotateY(180deg);
 }
+
+.flipped .flipping-card-front {
+  transform: rotateY(-180deg);
+}
+
+.flipped .flipping-card-back {
+  transform: rotateY(0deg);
+}
